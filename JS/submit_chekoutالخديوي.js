@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 alert("تم إرسال طلبك بنجاح!Toskanini");
                 form.reset();
                 localStorage.removeItem('cart');
-                window.location.href = "الخديوي.html";
+                window.location.href = "index.html";
             } else {
                 alert("حدث خطأ في إرسال طلبك. يرجى المحاولة مرة أخرى. رسالة الخطأ: " + data.error);
                 console.error('Error from server:', data.error);
@@ -76,3 +76,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
