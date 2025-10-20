@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toskanini</title>
+
+
+    <link rel="icon" href="img/لوجو.jpg">
+
+
+
+
+    <link rel="stylesheet" href="CSS/styleالخديوي_FIXED.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="CSS/styleالخديوي_FIXED.css">
+
+    <link rel="stylesheet" href="CSS/product_modalالخديوي_FIXED.css">
+
+    <link rel="stylesheet" href="CSS/ad-popupالخديوي.css">
+    <link rel="stylesheet" href="CSS/loaderالخديوي.css">
+
+
+
+
+
+
+
+
+</head>
+     <script>
+  window.AD_POPUP_CONFIG = {
+    // mediaType: 'image' أو 'video'
+    mediaType: 'image',
+    // مسار الصورة أو الفيديو
+    src: 'img/IMG-20251020-WA0041.jpg',
+    // لو فيديو: بوستر اختياري، والأوتوبلاي لازم يكون muted عشان المتصفحات
+    poster: '',
+    autoplay: true,
+    muted: true,
+    // العداد بالثواني قبل تفعيل زر الإغلاق
+    countdownSeconds: 3
+  };
+</script>
+
+<!-- سكريبت البوب-أب -->
+<script src="JS/ad-popupالخديوي.js"></script>
+<body>
+
+
+    <div class="cart ">
+        <div class="top_cart">
+            <h3>عناصر العربة : <span class="count_item_cart">0</span></h3>
+            <span onclick="open_close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+
+        <div class="items_in_cart" id="cart_items">
+
+        </div>
+
+
+
+        <div class="bottom_cart">
+            <div class="total">
+                <p>المجموع</p>
+                <p class="price_cart_total">$0</p>
+            </div>
+
+
+            <div class="botton_cart">
+                <a href="checkoutالخديوي.html" class="btn_cart btn">الدفع</a>
+                <span onclick="open_close_cart()" class="btn_cart trans_bg btn">تسوق أكثر</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <header>
+        <div class="top_headar">
+            <div class="container">
+                <a href="#" class="logo"><img src="img/لوجو.jpg" alt=""></a>
+
+                <form action="" class="search_box">
+
+
+                    
+
+
+                    <input type="text" name="search" id="search" placeholder="search for products" required>
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+                </form>
+
+                <div class="header_icons">
+                    <div class="icon">
+                       
+                    </div>
+
+                    <div onclick="open_close_cart()" class="icon">
+                        <a href="#">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="count count_item_heater">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bottom_header">
+            <div class="container">
+                <nav class="nav">
+                    <span onclick="open_Menu()" class="open_menu"><i class="fa-solid fa-bars"></i></span>
+
+
+
+                     <ul class=nav_linkc>
+                        <span onclick="open_Menu()" class="close_menu"><i class="fa-regular fa-circle-xmark"></i></span>
+
+                          <li class="active"><a href="index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="dashboardالخديوي.html">About</a></li>
+                        <li><a href="#foo">موقعنا</a></li>
+                        <li><a href="index.html">الاصناف</a></li>
+                    </ul>
+
+
+                </nav>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </header>
+
+
+
+
+
+    <div class="slider">
+        <div class="container">
+
+
+
+            <!-- swiper -->
+            <div class="slied-swp mySwiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img/الخديوي اعلان1.jpg" alt=""></a>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <a href="#"><img src="img/الخديوي اعلان2.jpg" alt=""></a>
+                    </div>
+
+                     <div class="swiper-slide">
+                        <a href="#"><img src="img/الخديوي اعلان3.jpg " alt=""></a>
+                    </div>
+
+                     
+
+
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+
+            <div class="banner_2">
+                <a href="#"><img src="img/علروض التوفير.jpg" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+   
+
+
+
+   
+
+
+
+
+    <div class="slider_products slide">
+
+        <div class="container">
+
+            <div class="slide_product mySwiper">
+
+
+                <div class="tpo_slide">
+                    <h2><i class="fa-solid fa-tags"></i>بناطيل جينز</h2>
+                </div>
+
+                <div class="products swiper-wrapper" id="swiper_kashri">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="banners">
+        <div class="container">
+            <div class="banners_boxs banner_3_img">
+                <a href="#" class="box"><img src="img/الخديوي اعلان1.jpg" alt=""></a>
+                <a href="#" class="box"><img src="img/الخديوي اعلان1.jpg" alt=""></a>
+
+                
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <footer id="foo">
+        <div class="container">
+            <div class="big_row">
+                <img class="logo_footer" src="img/لوجو.png" alt="">
+
+
+                <p>زورو موقعنا على</p>
+
+                <div class="icon_footer">
+                    <a href="https://wa.me/201028764070" target="_blank" rel="noopener noreferrer">
+                           <i class="fa-solid fa-phone"></i></a>
+
+                    <a href="https://www.facebook.com/people/Toskanini/100083225624243/?rdid=9c7TDAOoHsPnQQVY&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17KrR1y8v5%2F"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/tos_kanini?igsh=MTBmejUxb2ZzZHVvNA=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+
+
+
+                </div>
+            </div>
+
+
+          <div class="row">
+                <h4> الفروع</h4>
+
+                <div class="links">
+                    <div class="branch-map">
+  <h3><i class="fa-solid fa-location-dot"></i> الفرع الرئيسي: سيتي مول الدور التاني</h3>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.4250926510595!2d30.52467637609352!3d30.36728480320157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458bf2d23921ced%3A0xb6fc1e0c1b7f883f!2sCity%20Mall!5e0!3m2!1sen!2seg!4v1760967561963!5m2!1sen!2seg"
+    width="100%" 
+    height="400" 
+    style="border:0; border-radius:10px;"
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+ <div class="branch-map">
+  <h3><i class="fa-solid fa-location-dot"></i>الفرع االتاني: بيراميدز مول الدور الاول</h3>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38944.87766549925!2d30.464929503959144!3d30.37159392810019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458bf6ca1fe1d4f%3A0x14377ccaaebe30ce!2z2YXZiNmEINio2YrYsdin2YXZitiv2LIgLSBQeXJhbWlkcyBNYWxs!5e0!3m2!1sen!2seg!4v1760968138237!5m2!1sen!2seg"
+    width="100%" 
+    height="400" 
+    style="border:0; border-radius:10px;"
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+
+    
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- file js -->
+    <script src="JS/searchالخديوي.js"></script>
+
+    <script src="JS/swiperالخديوي.js"></script>
+    <script src="JS/items_homeالخديوي.js"></script>
+    <script src="JS/mainالخديوي.js"></script>
+
+
+
+
+   <script src="JS/product_modalالخديوي.js"></script>
+
+<script src="JS/enhance_checkoutالخديوي.js"></script>
+
+<!-- اختياري -->
+<script src="JS/dashboard_enhancementsالخديوي.js"></script>
+
+
+
+
+<script src="JS/khedive_modal_tweaks.js"></script>
+
+<script src="JS/loaderالخديوي.js"></script>
+
+</body>
+
+</html>
