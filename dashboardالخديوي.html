@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة التحكم | إدارة الطلبات</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/styleالخديوي_FIXED.css">
+    
+<link rel="stylesheet" href="CSS/product_modalالخديوي_FIXED.css">
+<link rel="stylesheet" href="CSS/loaderالخديوي.css">
+    <style>
+      /* بعض تنسيقات سريعة للعرض داخل اللوحة لو ما عندك CSS جاهز */
+      body { font-family: "Tajawal", Arial, sans-serif; background:#f5f6fa; color:#222; margin:0; padding:20px; direction:rtl; }
+      .dashboard-container { max-width:1200px; margin:0 auto; background:#fff; border-radius:10px; padding:20px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+      .dashboard-header h2 { margin:0 0 10px 0; }
+      .date-filter-section, .search-section, .order-filters, .reports-section { margin:12px 0; display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+      .date-controls label { margin-left:6px; }
+      input[type="date"], input[type="text"], select { padding:8px 10px; border:1px solid #ddd; border-radius:6px; }
+      .filter-btn, .report-btn, .search-btn, .end-shift-btn { padding:8px 12px; border-radius:6px; border: none; background:#5c16ff; color:#000000; cursor:pointer; }
+      .filter-btn.active { background:#333; }
+      .badge { background:#ff3b30; color:#fff; padding:2px 6px; border-radius:10px; margin-left:6px; font-size:12px; }
+      .order-list { margin-top:18px; }
+      .order-card { background:#fafafa; border:1px solid #eee; padding:14px; border-radius:8px; margin-bottom:12px; }
+      .order-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+      .order-status { padding:6px 10px; border-radius:16px; font-weight:600; }
+      .status-new { background:#fffae6; color:#b77a00; }
+      .status-in-progress { background:#e6f7ff; color:#0366a6; }
+      .status-received { background:#e6ffe6; color:#078a36; }
+      .status-archived { background:#f0f0f0; color:#777; }  
+      .order-details p { margin:6px 0; }
+      .action-btns { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
+      .action-btn { padding:8px 10px; border-radius:6px; border:1px solid #000000; background:#000000; cursor:pointer; }
+    </style>
+</head>
+<body>
+  <div class="dashboard-container">
+        <div class="dashboard-header">
+            <h2>لوحة إدارة الطلبات</h2>
+        </div>
+        
+       
+        <div class="date-filter-section">
+            <div class="date-controls">
+                <label for="start-date-input">من تاريخ:</label>
+                <input type="date" id="start-date-input">
+                <label for="end-date-input">إلى تاريخ:</label>
+                <input type="date" id="end-date-input">
+            </div>
+            <button class="filter-btn" id="filter-date-btn">فلتر حسب التاريخ</button>
+        </div>
+
+        <div class="search-section">
+            <input type="text" id="shift-search-input" placeholder="ابحث برقم الوردية (Shift ID)">
+            <button class="search-btn" id="search-shift-btn">بحث</button>
+        </div>
+
+        <div class="order-filters">
+            <button class="filter-btn " data-status="all">جميع الطلبات</button>
+            
+            <button class="filter-btn" data-status="جديد">
+                طلبات جديدة
+                <span class="badge" id="new-orders-count">0</span>
+            </button>
+
+            <button class="filter-btn" data-status="قيد التحضير">
+                قيد التحضير
+                <span class="badge" id="in-progress-count">0</span>
+            </button>
+
+            <button class="filter-btn" data-status="تم الاستلام">
+                تم الاستلام
+                <span class="badge" id="received-count">0</span>
+            </button>
+
+            <button class="filter-btn" data-status="مؤرشف">مؤرشف</button>
+        </div>
+        
+        <div class="reports-section">
+            <button class="report-btn" id="daily-sales-report-btn">تقرير المبيعات</button>
+            <button class="report-btn" id="daily-inventory-report-btn">جرد المنتجات</button>
+            
+        </div>
+        
+        <div class="order-list" id="order-list">
+        </div>
+    </div>
+
+    <!-- ربط السكربتات -->
+    <script src="JS/dashboardالخديوي.js"></script>
+
+    
+   <script src="JS/product_modalالخديوي.js"></script>
+
+<script src="JS/enhance_checkoutالخديوي.js"></script>
+
+<!-- اختياري -->
+<script src="JS/dashboard_enhancementsالخديوي.js"></script>
+<script src="JS/dashboard_options_patchالخديوي.js"></script>
+<script src="JS/dashboard_colors_sizes_runtimeالخديوي.js"></script>
+<script src="JS/dashboard_whatsapp_notifyالخديوي.js"></script>
+
+<script src="JS/loaderالخديوي.js"></script>
+</body>
+</html>

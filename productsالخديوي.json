@@ -1,0 +1,168 @@
+[
+  
+{
+  "id": 1,
+  "name": " بنطلون جينز",
+  "img": "img/+1.jpg",
+  "price": 300,
+  "catetory": "kashri",
+  "desc": " بنطلون جينز ستريت طويل",
+  "images": ["img/k1.jpg","img/k2.jpg"], 
+  "variants": {
+    "colors": [
+      { "name": "ازرق", "value": "red", "hex": "#0000ff ",
+        "images": ["img/+1.jpg","img/1.jpg"], "default": true }
+      
+    ],
+    "sizes": ["30","32","33"]
+  }
+},
+{
+  "id": 2,
+  "name": "بنطلون جينز ",
+  "img": "img/2+.jpg",
+  "price": 800,
+  "catetory": "kashri",
+  "desc": " بنطلون جينز ستريت طويل",
+  "images": ["img/2+.jpg","img/+1.jpg"], 
+  "variants": {
+    "colors": [
+      { "name": "اسود", "value": "red", "hex": "#000000 ",
+        "images": ["img/2+.jpg","img/2.jpg","img/2++.jpg"], "default": true }
+    ],
+    "sizes": ["30","32","33"]
+  }
+},
+{
+  "id": 3,
+  "name": " بنطلون جينز",
+  "img": "img/3.jpg",
+  "price": 750,
+  "catetory": "kashri",
+  "desc": " بنطلون جينز ستريت طويل",
+  "images": ["img/k1.jpg","img/k2.jpg"], 
+  "variants": {
+    "colors": [
+      { "name": "ازرق", "value": "red", "hex": "#0000ff ",
+        "images": ["img/3.jpg","img/3+.jpg"], "default": true }
+    ],
+    "sizes": ["30","32","33"]
+  }
+},
+{
+  "id": 4,
+  "name": " بنطلون جينز",
+  "img": "img/5.jpg",
+  "price": 900,
+  "catetory": "kashri",
+  "desc": "وصف مختصر",
+  "images": ["img/k1.jpg","img/k2.jpg"], 
+  "variants": {
+    "colors": [
+      { "name": "اخضر زيتوني فاتح", "value": "red", "hex": "#A9B79B",
+        "images": ["img/5.jpg","img/5+.jpg"], "default": true },
+      { "name": "اخضر زيتوني غامق", "value": "green", "hex": "#556B2F",
+        "images": ["img/6.jpg","img/6+.jpg","img/6++.jpg"] }
+    ],
+    "sizes": ["30","32","33"]
+  }
+},
+{
+  "id": 5,
+  "name": " بنطلون جينز",
+  "img": "img/4.jpg",
+  "price": 600,
+  "catetory": "kashri",
+  "desc": "وصف مختصر",
+  "images": ["img/k1.jpg","img/k2.jpg"], 
+  "variants": {
+    "colors": [
+      { "name": "ازرق", "value": "red", "hex": "#0000ff ",
+        "images": ["img/4.jpg","img/4+.jpg"], "default": true }
+    ],
+    "sizes": ["30","32","33"]
+  }
+},
+{
+  "id": 6,
+  "name": " بنطلون جينز",
+  "img": "img/7 (1).jpg",
+  "price": 400,
+  "catetory": "kashri",
+  "desc": "وصف مختصر",
+  "images": ["img/k1.jpg","img/k2.jpg"], 
+  "variants": {
+    "colors": [
+       { "name": "اسود", "value": "red", "hex": "#000000 ",
+        "images": ["img/7 (4).jpg","img/7 (3).jpg","img/7 (2).jpg"], "default": true }
+    ],
+    "sizes": ["30","32","33"]
+  }
+},
+{
+  "id": 7,
+  "name": " بنطلون جينز",
+  "img": "img/8 (4).jpg",
+  "price": 400,
+  "catetory": "kashri",
+  "desc": "وصف مختصر",
+  "images": ["img/k1.jpg","img/k2.jpg"], 
+  "variants": {
+    "colors": [
+      { "name": "ازرق", "value": "red", "hex": "#0000ff ",
+        "images": ["img/8 (4).jpg","img/8 (3).jpg","img/8 (1).jpg","img/8 (2).jpg"], "default": true }
+    ],
+    "sizes": ["30","32","33"]
+  }
+},
+{
+  "id": 8,
+  "name": " بنطلون جينز",
+  "img": "img/9 (1).jpg",
+  "price": 400,
+  "catetory": "kashri",
+  "desc": "وصف مختصر",
+  "images": ["img/k1.jpg","img/k2.jpg"], 
+  "variants": {
+    "colors": [
+      { "name": "اسود", "value": "red", "hex": "#000000 ",
+        "images": ["img/9 (1).jpg","img/9 (2).jpg"], "default": true }
+    ],
+    "sizes": ["30","32","33"]
+  }
+},
+{
+  "id": 9,
+  "name": " بنطلون جينز",
+  "img": "img/10 (1).jpg",
+  "price": 400,
+  "catetory": "kashri",
+  "desc": "وصف مختصر",
+  "images": ["img/10 (1).jpg","img/10 (2).jpg"], 
+  "variants": {
+    "colors": [
+      { "name": "بيج فاتح", "value": "red", "hex": "#EDE0C8",
+        "images": ["img/10 (1).jpg","img/10 (2).jpg"], "default": true }
+    ],
+    "sizes": ["30","32","33"]
+  }
+},
+{
+  "id": 10,
+  "name": " بنطلون جينز",
+  "img": "img/11.jpg",
+  "price": 400,
+  "catetory": "kashri",
+  "desc": "وصف مختصر",
+  "images": ["img/k1.jpg","img/k2.jpg"], 
+  "variants": {
+    "colors": [
+      { "name": "ازرق", "value": "red", "hex": "#0000ff ",
+        "images": ["img/11.jpg"], "default": true }
+    ],
+    "sizes": ["30","32","33"]
+  }
+}
+  
+]
+   

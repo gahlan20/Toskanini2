@@ -1,0 +1,38 @@
+/* لودر عام باللوجو (صورة IMG حقيقية مش خلفية) */
+
+.kh-loader-backdrop{
+  position: fixed;
+  inset: 0;
+  background: rgba(255,255,255,0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  transition: opacity .25s ease;
+  opacity: 1;
+}
+.kh-loader-hidden{ opacity:0; pointer-events:none; }
+
+.kh-loader-box{
+  display:flex; flex-direction:column; align-items:center; gap:12px;
+  text-align:center; direction:rtl; font-family:"Tajawal", Arial, sans-serif;
+}
+
+/* اللوجو كصورة IMG */
+.kh-logo-img{
+  max-width: 180px;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+  object-fit: contain;         /* يخلي الصورة كاملة */
+  filter: drop-shadow(0 6px 12px rgba(0,0,0,.12));
+  animation: khPulse 3s ease-in-out infinite;
+}
+
+.kh-loader-text{ color:#222; font-weight:700; font-size:16px; }
+
+@keyframes khPulse{
+  0%{ transform:scale(.96); }
+  50%{ transform:scale(1.04); }
+  100%{ transform:scale(.96); }
+}

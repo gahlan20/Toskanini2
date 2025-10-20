@@ -1,0 +1,117 @@
+
+/* ====== Ad Popup (الخديوي) ====== */
+.ad-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.65);
+  display: none; /* will be toggled by JS */
+  align-items: center;
+  justify-content: center;
+  z-index: 9999; /* above header/cart */
+  backdrop-filter: blur(2px);
+}
+
+.ad-overlay.ad-show {
+  display: flex;
+  animation: adFadeIn 250ms ease-in forwards;
+}
+
+@keyframes adFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.ad-modal {
+  width: min(92vw, 760px);
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+  position: relative;
+  border: 2px solid #6C7A89; /* match theme */
+}
+
+.ad-media-wrap {
+  width: 100%;
+  background: #000;
+  display: grid;
+  place-items: center;
+}
+
+.ad-media-wrap img,
+.ad-media-wrap video {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 76vh;
+}
+
+.ad-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 14px;
+  background: #fff5e6;
+  border-top: 1px solid #6C7A89;
+  direction: rtl;
+  font-family: inherit;
+}
+
+.ad-countdown {
+  font-weight: 700;
+  color: #6C7A89;
+  font-size: 15px;
+}
+
+.ad-close {
+  appearance: none;
+  border: 0;
+  background: #6C7A89;
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 999px;
+  cursor: not-allowed;
+  opacity: 0.6;
+  transition: transform .15s ease, opacity .2s ease, background .2s;
+}
+
+.ad-close.ad-enabled {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.ad-close.ad-enabled:hover {
+  transform: translateY(-1px);
+  background: #f47600;
+}
+
+/* Close (X) badge in the top-right corner inside modal */
+.ad-x {
+  position: absolute;
+  top: 8px;
+  left: 8px; /* RTL visual 'X' on left; keep unique from site's icons */
+  background: rgba(0,0,0,0.65);
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  user-select: none;
+  pointer-events: none; /* becomes enabled after timer */
+  opacity: 0.4;
+}
+
+.ad-x.ad-enabled {
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 1;
+}
+
+@media (max-width: 520px) {
+  .ad-modal { border-radius: 12px; }
+  .ad-close { padding: 8px 12px; }
+}
