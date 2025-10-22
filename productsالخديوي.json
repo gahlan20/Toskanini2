@@ -3,7 +3,7 @@
 {
   "id": 1,
   "name": " بنطلون جينز",
-  "img": "img/IMG_1469.JPG",
+  "img": "img/IMG.JPG",
   "price": 300,
   "catetory": "kashri",
   "desc": " بنطلون جينز ستريت طويل",
@@ -11,7 +11,7 @@
   "variants": {
     "colors": [
       { "name": "ازرق", "value": "red", "hex": "#0000ff ",
-        "images": ["img/IMG_1469.JPG","img/IMG_1471.JPG","img/IMG_1470.JPG","img/IMG_1472.JPG","img/IMG_1474.JPG"], "default": true }
+        "images": ["img/IMG.JPG","img/IMG_1471.JPG","img/IMG_1470.JPG","img/IMG_1472.JPG","img/IMG_1474.JPG"], "default": true }
     ],
     "sizes": ["30","32","33"]
   }
@@ -165,3 +165,4 @@
   
 ]
    
+
