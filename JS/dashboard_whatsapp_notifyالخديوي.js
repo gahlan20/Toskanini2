@@ -106,7 +106,7 @@
         if (!phoneIntl) return;
 
         var msg = buildMessage(order);
-        var url = 'https://wa.me/01287003333' + phoneIntl + '?text=' + encodeURIComponent(msg);
+        var url = 'https://wa.me/' + phoneIntl + '?text=' + encodeURIComponent(msg);
         window.open(url, '_blank'); // يفتح واتساب ويب/الموبايل ويرسل المستخدم الرسالة
       }, 500);
     } catch(e){}
