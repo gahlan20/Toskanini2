@@ -3,7 +3,7 @@
 {
   "id": 1,
   "name": " بنطلون جينز",
-  "img": "img/IMG.JPG",
+  "img": "img/55.jpg",
   "price": 300,
   "catetory": "kashri",
   "desc": " بنطلون جينز ستريت طويل",
@@ -11,7 +11,7 @@
   "variants": {
     "colors": [
       { "name": "ازرق", "value": "red", "hex": "#0000ff ",
-        "images": ["img/IMG.JPG","img/IMG_1471.JPG","img/IMG_1470.JPG","img/IMG_1472.JPG","img/IMG_1474.JPG"], "default": true }
+        "images": ["img/55.jpg","img/58.jpg","img/56.jpg","img/57.jpg","img/IMG_1474.JPG"], "default": true }
     ],
     "sizes": ["30","32","33"]
   }
@@ -19,7 +19,7 @@
 {
   "id": 2,
   "name": "بنطلون جينز ",
-  "img": "img/2+.jpg",
+  "img": "img/60.jpg",
   "price": 800,
   "catetory": "kashri",
   "desc": " بنطلون جينز ستريت طويل",
@@ -27,7 +27,17 @@
   "variants": {
     "colors": [
       { "name": "اسود", "value": "red", "hex": "#000000 ",
-        "images": ["img/2+.jpg","img/2.jpg","img/2++.jpg"], "default": true }
+        "images": ["img/60.jpg","img/60p2.jpg","img/60o3.jpg","img/60p.jpg"], "default": true },
+        { "name": "وردي فاتح", "value": "red", "hex": "#FFB6C1",
+        "images": ["img/70oo.jpg","img/70u.jpg"], "default": true },
+        { "name": "رمادي فاتح", "value": "red", "hex": "#D3CFC8 ",
+        "images": ["img/70k.jpg"], "default": true },
+        { "name": "بيج غامق", "value": "red", "hex": "#B2A17A ",
+        "images": ["img/70o.jpg"], "default": true },
+        { "name": "أزرق سماوي", "value": "red", "hex": "#AFCBE3 ",
+        "images": ["img/70p.jpg"], "default": true },
+         { "name": "زيتي غامق", "value": "red", "hex": "#4B5333 ",
+        "images": ["img/j.jpg"], "default": true }
     ],
     "sizes": ["30","32","33"]
   }
@@ -35,129 +45,33 @@
 {
   "id": 3,
   "name": " بنطلون جينز",
-  "img": "img/3.jpg",
+  "img": "img/t.jpg",
   "price": 750,
   "catetory": "kashri",
   "desc": " بنطلون جينز ستريت طويل",
   "images": ["img/k1.jpg","img/k2.jpg"], 
   "variants": {
     "colors": [
-      { "name": "ازرق", "value": "red", "hex": "#0000ff ",
-        "images": ["img/3.jpg","img/3+.jpg"], "default": true }
+      { "name": "زيتي فاتح", "value": "red", "hex": "#9A8B4F ",
+        "images": ["img/t.jpg","img/ttt.jpg","img/tt.jpg","img/tttt.jpg"], "default": true }
     ],
     "sizes": ["30","32","33"]
   }
 },
-{
-  "id": 4,
-  "name": " بنطلون جينز",
-  "img": "img/5.jpg",
-  "price": 900,
-  "catetory": "kashri",
-  "desc": "وصف مختصر",
-  "images": ["img/k1.jpg","img/k2.jpg"], 
-  "variants": {
-    "colors": [
-      { "name": "اخضر زيتوني فاتح", "value": "red", "hex": "#A9B79B",
-        "images": ["img/5.jpg","img/5+.jpg"], "default": true },
-      { "name": "اخضر زيتوني غامق", "value": "green", "hex": "#556B2F",
-        "images": ["img/6.jpg","img/6+.jpg","img/6++.jpg"] }
-    ],
-    "sizes": ["30","32","33"]
-  }
-},
+
+
 {
   "id": 5,
   "name": " بنطلون جينز",
-  "img": "img/4.jpg",
+  "img": "img/s.jpg",
   "price": 600,
   "catetory": "kashri",
   "desc": "وصف مختصر",
   "images": ["img/k1.jpg","img/k2.jpg"], 
   "variants": {
     "colors": [
-      { "name": "ازرق", "value": "red", "hex": "#0000ff ",
-        "images": ["img/4.jpg","img/4+.jpg"], "default": true }
-    ],
-    "sizes": ["30","32","33"]
-  }
-},
-{
-  "id": 6,
-  "name": " بنطلون جينز",
-  "img": "img/7 (1).jpg",
-  "price": 400,
-  "catetory": "kashri",
-  "desc": "وصف مختصر",
-  "images": ["img/k1.jpg","img/k2.jpg"], 
-  "variants": {
-    "colors": [
-       { "name": "اسود", "value": "red", "hex": "#000000 ",
-        "images": ["img/7 (4).jpg","img/7 (3).jpg","img/7 (2).jpg"], "default": true }
-    ],
-    "sizes": ["30","32","33"]
-  }
-},
-{
-  "id": 7,
-  "name": " بنطلون جينز",
-  "img": "img/8 (4).jpg",
-  "price": 400,
-  "catetory": "kashri",
-  "desc": "وصف مختصر",
-  "images": ["img/k1.jpg","img/k2.jpg"], 
-  "variants": {
-    "colors": [
-      { "name": "ازرق", "value": "red", "hex": "#0000ff ",
-        "images": ["img/8 (4).jpg","img/8 (3).jpg","img/8 (1).jpg","img/8 (2).jpg"], "default": true }
-    ],
-    "sizes": ["30","32","33"]
-  }
-},
-{
-  "id": 8,
-  "name": " بنطلون جينز",
-  "img": "img/9 (1).jpg",
-  "price": 400,
-  "catetory": "kashri",
-  "desc": "وصف مختصر",
-  "images": ["img/k1.jpg","img/k2.jpg"], 
-  "variants": {
-    "colors": [
       { "name": "اسود", "value": "red", "hex": "#000000 ",
-        "images": ["img/9 (1).jpg","img/9 (2).jpg"], "default": true }
-    ],
-    "sizes": ["30","32","33"]
-  }
-},
-{
-  "id": 9,
-  "name": " بنطلون جينز",
-  "img": "img/10 (1).jpg",
-  "price": 400,
-  "catetory": "kashri",
-  "desc": "وصف مختصر",
-  "images": ["img/10 (1).jpg","img/10 (2).jpg"], 
-  "variants": {
-    "colors": [
-      { "name": "بيج فاتح", "value": "red", "hex": "#EDE0C8",
-        "images": ["img/10 (1).jpg","img/10 (2).jpg"], "default": true }
-    ],
-    "sizes": ["30","32","33"]
-  }
-},
-{
-  "id": 10,
-  "name": " بنطلون جينز",
-  "img": "img/11.jpg",
-  "price": 400,
-  "catetory": "kashri",
-  "desc": "وصف مختصر",
-  "images": ["img/k1.jpg","img/k2.jpg"], 
-  "variants": {
-    "colors": [
-      { "name": "ازرق", "value": "red", "hex": "#0000ff ",
-        "images": ["img/11.jpg"], "default": true }
+        "images": ["img/s.jpg","img/sss.jpg","img/ss.jpg"], "default": true }
     ],
     "sizes": ["30","32","33"]
   }
@@ -165,4 +79,3 @@
   
 ]
    
-
